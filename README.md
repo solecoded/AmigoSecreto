@@ -1,6 +1,3 @@
-
-![logo](https://github.com/user-attachments/assets/bf7d3728-30bd-4835-bc80-4bb72253f255)
-
 # 🎁🎁¡Bienvenido al challenge de Amigo secreto! 🎁🎁
 
 ## ¿De qué se trata el proyecto?
