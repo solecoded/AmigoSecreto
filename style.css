@@ -1,0 +1,194 @@
+:root {
+    --color-primary: #ffffff;
+    --color-secondary: #da537b;
+    --color-tertiary: #6200ee;
+    --color-button: #da537b;
+    --color-button-hover: #b81840;
+    --color-text: #0f0f0f;
+    --color-white: #FFFFFF;
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    /* background-color: var(--color-primary); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* IMAGEN DE FONDO */
+
+    background-image: url('assets/bg-amigo.jpg'); /* Cambia esto por la ruta de tu imagen */
+    background-repeat: repeat-y; /* Esto hará que la imagen se repita horizontalmente */
+    background-size: auto; /* Esto mantiene el tamaño original de la imagen */
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:25%;
+    /* padding: 40px 0 0; */
+}
+
+/* Sección de entrada */
+.input-section {
+    flex: 60%;
+    background-color: #fffcfc;
+   /*  border: 0.5px solid #393939; */
+   box-shadow: #2f2a22 0px 0px 30px;
+    border-radius: 64px 64px 0 0; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 30px;
+    width: 100%;
+}
+
+/* Títulos */
+.main-title {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: regular;
+    color: #0f0f0f;
+}
+
+.section-title {
+    font-family: "Poppins", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--color-secondary);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Contenedores de entrada y botón */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 750px;
+    margin-top: 20px;
+}
+
+.input-name {
+    width: 64%;
+    padding: 10px;
+    border: 0.5px solid #0f0f0f;
+    /* border-radius: 5px 0 0 5px;*/
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.button-container {
+    width: 320px;
+    justify-content: center;
+}
+
+.button-container-senior {
+   display:flex;
+}
+
+/* Estilos de entrada de texto */
+.input-title {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+   
+    font-family: "Poppins", sans-serif;
+  
+}
+
+.instructions-list {
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #0f0f0f;
+}
+/* Estilos de botón */
+button {
+    padding: 8px 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    /* border: 0.5px solid #000;
+    border-radius: 5px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); */
+    cursor: pointer;
+    border-color:#da537b;
+    display: flex; 
+    align-items: center;
+}
+
+.button-add {
+    background-color: var(--color-secondary);
+    color: #fffcfc;
+    border-color:#da537b;
+    /* border-radius: 0 5px 5px 0; */
+}
+
+.button-add:hover {
+    background-color: #a1a1a1;
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: var(--color-text);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: #0f0f0f;
+    font-size: 22px;
+    font-weight: regular;
+    text-align: center;
+}
+
+/* Botón de sortear título */
+.button-draw {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 10px 20px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;
+}
+
+.button-draw img {
+    margin-right: 40px;
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+.button-draw-outline {
+    
+    color: #da537b;
+    background-color: var(--color-white);
+   
+    border-color:#da537b;
+    }
+
+
